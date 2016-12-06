@@ -8,9 +8,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EnableJpaRepositories(basePackages="lorapp.db.repo")
 @EntityScan(basePackages="lorapp.db.entity")
-public class LoraDataMonitorApplication {
+public class LoraSupervisionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoraDataMonitorApplication.class, args);
+		SpringApplication.run(LoraSupervisionApplication.class, args);
 	}
 }
