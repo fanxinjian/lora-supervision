@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
-@RabbitListener(queues = "${lora.rawdata.queue}")
+@RabbitListener(queues = {"rawdata"})
 @Component
 public class RabbitMQConfig {
 	
